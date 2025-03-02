@@ -2,7 +2,7 @@ let productsData = [];
 let currentPage = 1;
 const itemsPerPage = 20;
 // Change the filename here for different websites (e.g., data1.json or data2.json)
-const jsonFile = "data.json";
+const jsonFile = "Shoes.json";
 
 document.addEventListener("DOMContentLoaded", () => {
   fetch(jsonFile)
